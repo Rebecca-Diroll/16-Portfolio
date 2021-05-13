@@ -1,0 +1,320 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+:root {
+  --dark-color: #032247;
+  --med-color: #3268a8;
+  --light-color: #b6d6fc;
+  --almost-white: whitesmoke;
+  --med-gray: gray;
+  --light-gray: lightgray;
+  --light-purple: lavender;
+}
+
+body {
+  background: var(--almost-white);
+  overflow-x: hidden;
+  font-size: 16px;
+  color: var(--med-color);
+}
+
+/* Name */
+.header-image {
+    position: relative;
+    text-align: center;
+  }
+  
+.heading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5em;
+    font-weight: bold;
+    color: var(--dark-color);
+    width: 90vw;
+    background-color: rgba(228, 241, 254, 0.8);
+  }
+
+/* Header Nav Buttons */
+#about-me-nav { grid-area: about-me-nav; }
+#work-nav { grid-area: work-nav; }
+#contact-me-nav { grid-area: contact-me-nav; }
+#resume-nav { grid-area: resume-nav; }
+
+.nav-links {
+  display: grid;
+  grid-template-areas: "about-me-nav work-nav contact-me-nav resume-nav";
+}
+
+.nav-links li {
+  list-style-type: none;
+  height: 3em;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.button {
+  background: var(--light-purple);
+  border: 2px solid var(--med-color);
+  color: var(--med-color);
+  font-weight: bolder;
+  padding: 5px 5px 3px 5px;
+  margin: 2px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+  display: inline-block;
+}
+
+.button:hover {
+  background: var(--light-gray);
+}
+
+/* Banner and Job Title */
+.web-developer-image {
+  position: relative;
+  text-align: center;
+}
+
+.web-developer-heading {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.4em;
+  font-weight: bold;
+  color: white;
+}
+
+/* Main Section Headings */
+h3 {
+  font-size: 1.3em;
+  text-align: center;
+  padding-bottom: 0;
+  margin: 10px 0 0 0;
+}
+
+/* Picture and Intro */
+.about-me {
+  padding-bottom: 10px;
+}
+
+.about-me-photo {
+  object-fit: scale-down;
+  float: left;
+  width: 125px;
+  height: auto;
+  /* padding: 20px 15px 5px 15px; */
+  border-radius: 5px;
+  margin: 0 15px 0 8px;
+  /* border: 3px solid var(--light-gray); */
+}
+
+.about-me-info,
+#resume {
+  padding: 10px;
+}
+
+.resume-text {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+/* Sectional Break - Visible Line */
+hr {
+  border: none;
+  border-top: 3px solid var(--med-color);
+  overflow: hidden;
+  text-align: center;
+  height: 2px;
+}
+
+/* Work Images, Links, and Hover Effects */
+#work {
+  text-align: center;
+}
+
+.project,
+.quiz,
+.scheduler,
+.weather {
+  position: relative;
+  text-align: center;
+}
+
+.project-heading,
+.quiz-heading,
+.scheduler-heading,
+.weather-heading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.3em;
+  font-weight: bold;
+  color: white;
+  background-color: rgba(0, 0, 128, 0.5);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.project:hover,
+.quiz:hover,
+.scheduler:hover,
+.weather:hover {
+  opacity: 0.7;
+  transition: 0.5s ease;
+}
+
+img {
+  border: 3px solid var(--light-gray);
+}
+
+/* Contact Me */
+#contact-me {
+  text-align: center;
+}
+
+#contact-me ul li {
+  line-height: 1.4;
+}
+
+.phone,
+.email,
+.github,
+.linkedin,
+.resume-heading,
+.resume-text {
+  color:var(--med-color);
+}
+
+.phone:hover,
+.email:hover,
+.github:hover,
+.linkedin:hover,
+.resume-heading:hover {
+  opacity: 0.5;
+}
+
+.resume-text:hover {
+  background-color: var(--light-color);
+  opacity: 0.7;
+}
+
+/* Footer */
+.footer-links ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 16px;
+  overflow: hidden;
+}
+
+.footer-links {
+  text-align-last: center;
+}
+
+.footer-links li {
+  font-size: 0.7em;
+  display: inline-block;
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+  text-decoration: none;
+  background-color: var(--med-color);
+}
+
+.footer-links li a {
+  color: white;
+}
+
+/* Media Queries and Responsive Design */
+
+/* Small devices: large phone, portrait tablet */
+@media only screen and (min-width: 600px) {
+    .heading {
+        font-size: 2.5em;
+    }
+    .header-image {
+      margin-bottom: 10px;
+    }
+    .nav-links {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .nav-links li {
+        font-size: 1em;
+    }     
+    body {
+        font-size: 1.2em;
+    }
+    h3 {
+        font-size: 1.5em;
+    }
+    .web-developer-heading {
+        font-size: 1.8em;
+    }
+    .footer-links li {
+        font-size: 0.9em;
+    }
+}
+
+/* Medium devices: landscape tablet */
+ @media only screen and (min-width: 768px) {
+    .heading {
+        font-size: 2.7em;
+        top: 48%;
+    }
+    .header-image {
+      margin-bottom: 20px;
+    }
+    .nav-links {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .nav-links li {
+        font-size: 1.1em;
+    }     
+    body {
+        font-size: 1.4em;
+    }
+    h3 {
+        font-size: 1.7em;
+    }
+    .web-developer-heading {
+        font-size: 1.7em;
+    }
+    .footer-links li {
+        font-size: 1.2em;
+    }
+}
+
+/* Large devices: laptop, desktop */
+ @media only screen and (min-width: 992px) {
+    .heading {
+        font-size: 2.8em;
+    }
+    .nav-links {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .nav-links li {
+        font-size: 1.2em;
+    }     
+    body {
+        font-size: 1.6em;
+    }
+    h3 {
+        font-size: 2em;
+    }
+    .web-developer-heading {
+        font-size: 2em;
+    }
+    .footer-links li {
+        font-size: 1.4em;
+    }
+}
