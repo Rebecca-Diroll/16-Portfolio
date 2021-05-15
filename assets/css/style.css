@@ -37,6 +37,7 @@ body {
     color: var(--dark-color);
     width: 90vw;
     background-color: rgba(228, 241, 254, 0.8);
+    border-radius: 5px 5px 5px 5px;
   }
 
 /* Header Nav Buttons */
