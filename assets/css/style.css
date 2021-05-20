@@ -113,11 +113,10 @@ h3 {
   object-fit: scale-down;
   float: left;
   width: 125px;
-  height: auto;
-  /* padding: 20px 15px 5px 15px; */
+  height: 125px;
+  margin: 0 15px 3px 8px;
+  border: 3px solid rgba(0, 128, 128, 0.2);
   border-radius: 10px;
-  margin: 0 15px 0 8px;
-  /* border: 3px solid var(--light-gray); */
 }
 
 .about-me-info,
@@ -164,9 +163,10 @@ hr {
   transform: translate(-50%, -50%);
   font-size: 1.3em;
   font-weight: bold;
-  color: white;
-  background-color: rgba(0, 0, 128, 0.5);
+  color: teal;
+  background-color: rgba(255, 255, 255, 0.6);
   padding: 5px;
+  border: 2px solid teal;
   border-radius: 5px;
 }
 
@@ -179,7 +179,11 @@ hr {
 }
 
 img {
-  border: 3px solid var(--light-gray);
+  border-radius: 5px;
+}
+
+.work-img {
+  border: 3px solid teal;
 }
 
 /* Contact Me */
