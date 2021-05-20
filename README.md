@@ -4,9 +4,9 @@ My Portfolio
 
 This project is an online, web-based portfolio that showcases the work that I have have done and the html, css, and javascript skills that I have built.
 
-Deployed Web Page: https://rebecca-diroll.github.io/08-Portfolio/
+Deployed Web Page: https://rebecca-diroll.github.io/16-Portfolio/
 
-GitHub Repository: https://github.com/Rebecca-Diroll/08-Portfolio
+GitHub Repository: https://github.com/Rebecca-Diroll/16-Portfolio
 
 The portfolio contains the following elements:
 1. Name
