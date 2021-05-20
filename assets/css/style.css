@@ -15,7 +15,7 @@
 }
 
 body {
-  background: var(--almost-white);
+  background: rgba(255,204,231, 0.5);
   overflow-x: hidden;
   font-size: 16px;
   color: var(--med-color);
@@ -79,6 +79,10 @@ body {
 .web-developer-image {
   position: relative;
   text-align: center;
+  opacity: 0.4;
+
+  /* filter: blur(1px);
+  -webkit-filter: blur(1px); */
 }
 
 .web-developer-heading {
@@ -88,7 +92,8 @@ body {
   transform: translate(-50%, -50%);
   font-size: 1.4em;
   font-weight: bold;
-  color: white;
+  color: #ffcce7;
+  padding: 2px 0 0 0;
 }
 
 /* Main Section Headings */
@@ -96,7 +101,7 @@ h3 {
   font-size: 1.3em;
   text-align: center;
   padding-bottom: 0;
-  margin: 10px 0 0 0;
+  margin: 15px 0 0 0;
 }
 
 /* Picture and Intro */
@@ -110,7 +115,7 @@ h3 {
   width: 125px;
   height: auto;
   /* padding: 20px 15px 5px 15px; */
-  border-radius: 5px;
+  border-radius: 10px;
   margin: 0 15px 0 8px;
   /* border: 3px solid var(--light-gray); */
 }
@@ -129,7 +134,7 @@ h3 {
 /* Sectional Break - Visible Line */
 hr {
   border: none;
-  border-top: 3px solid var(--med-color);
+  border-top: 3px solid teal;
   overflow: hidden;
   text-align: center;
   height: 2px;
@@ -146,6 +151,7 @@ hr {
 .weather {
   position: relative;
   text-align: center;
+  opacity: 0.7;
 }
 
 .project-heading,
