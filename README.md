@@ -2,28 +2,30 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+## User Story
 
-This project is an online, web-based portfolio that showcases the work that I have have done and the technical skills that I have built.
+This is an online, web-based portfolio that showcases projects that showcase a variety of web development technical skills.
 
-Deployed Web Page: https://rebecca-diroll.github.io/16-Portfolio/
+## Technology
+- HTML
+- CSS
+- Mobile First Design
 
+## GitHub
 GitHub Repository: https://github.com/Rebecca-Diroll/16-Portfolio
 
-The portfolio contains the following elements:
-1. Name
-2. Navigation Links
-3. Job Title
-4. About Me section with photo and text
-5. Work section showcasing a group project, tech blog, e-commerce app, and employee tracker. 
-6. Contact section with phone nubmer, email, GitHub, and LinkedIn links
-7. Resume section
-8. Footer section with nav links to the main sectons of the profile
-9. Media queries and responsive design
+## Heroku
+Heroku Deployment: https://rebecca-diroll.github.io/16-Portfolio/
 
-Technologies used: html, css, mobile first design, and media queries.
+## Images
+Portfolio 1
 
 ![image](/assets/images/Portfolio1.jpg)
 
+Portfolio 2
+
 ![image](/assets/images/Portfolio2.jpg)
+
+Portfolio 3
 
 ![image](/assets/images/Portfolio3.jpg)
