@@ -22,8 +22,8 @@ The portfolio contains the following elements:
 
 Technologies used: html, css, mobile first design, and media queries.
 
-![image](/assets/images/profile-phone.jpg)
+![image](/assets/images/Portfolio1.jpg)
 
-![image](/assets/images/profile-large1.jpg)
+![image](/assets/images/Portfolio2.jpg)
 
-![image](/assets/images/profile-large2.jpg)
+![image](/assets/images/Portfolio3.jpg)
